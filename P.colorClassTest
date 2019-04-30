@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		p.blue{
+			color: blue;
+		}
+		p.red{
+			color: red;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="">
+	<title>Day3</title>
+</head>
+<body>
+<h1>CSS color</h1>
+<p class="blue">This paragraph should be in blue</p>
+<p class="red">This paragraph should be in red</p>
+</body>
+</html>
