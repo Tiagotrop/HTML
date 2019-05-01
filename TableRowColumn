@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Table Tow and Column</title>
+	<title>Table Row and Column</title>
 </head>
 <body>
-<table cellpadding="5"; cellspacing="5"; border="1">
-	<tr>
-		<td>Row1, Column1</td>
-		<td>Row1, Column2</td>
-	</tr>
-	<tr>
-		<td>Row2, Column1</td>
-		<td>Row2, Column2</td>
-	</tr>
+	<!-- Table -->
+<table border="5"; bordercolor="green"; cellpadding="5"; cellspacing="10"; background="../IMG/homerSimpson.jpeg">
+<tr><th>Column 1</th>
+<th>Column 2</th>
+<th>Column 3</th></tr>
+<tr><td rowspan="2">Row 1 Cell 1</td>
+<td>Row 1 Cell 2</td>
+<td>Row 1 Cell 3</td></tr>
+<tr>
+<td>Row 2 Cell 2</td>
+<td>Row 2 Cell 3</td>
+</tr>
+<tr>
+<td colspan="3">Row 3 Cell 1</td>
+</tr>
 </table>
 </body>
 </html>
